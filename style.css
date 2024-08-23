@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(50, 46, 46);
+    transition:  .3s ease-in ;
+}
+
+.principal{
+    background-color: rgb(12, 11, 11);
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    border: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lineas{
+    display: flex;
+    margin: 1px;
+    gap: 2px;
+}
+
+p:hover{
+    background-color: red;
+    transition: color ease-out;
+}
+
+.red {
+    background-color: red;
+}
